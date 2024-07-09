@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/recognizedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press the button and speak..."
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/startRecognitionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Recognition"
+        android:padding="16dp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
